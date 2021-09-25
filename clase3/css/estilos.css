@@ -7,6 +7,7 @@
 body{
     font-family: 'Nunito', sans-serif;
     color: #444444;
+    font-size: 16px;
 }
 header{
     height: 120px;
@@ -35,9 +36,29 @@ main{
     width: 1100px;
     margin: auto;
     min-height: 550px;
-    /*background-color: #e2e2e2;*/
+    /* background-color: #e2e2e2; */
 }
+
+    main article{
+        width: 310px;
+        display: inline-block;
+        padding: 20px;
+        margin: 42px 0px 0px 42px;
+        border-radius: 10px;
+        /*background-color: #f7bebe;*/
+        box-shadow: 0px 0px 8px rgb(171, 185, 185);
+        transition: 300ms;
+    }
+    main article:hover{
+        box-shadow: 0px 0px 12px rgb(130, 150, 149);
+    }
+    main article h2{
+        font-size: 18px;
+    }
+
 footer{
     height: 120px;
+    text-align: center;
+    line-height: 120px;
     background-color: #f9f9f9;
 }
