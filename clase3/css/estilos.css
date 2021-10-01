@@ -6,7 +6,7 @@
 }
 body{
     font-family: 'Nunito', sans-serif;
-    color: #444444;
+    color: #4b5f5f;
     font-size: 16px;
 }
 header{
@@ -19,7 +19,7 @@ nav{
 }
     nav a{
         text-decoration: none;
-        color: #444444;
+        color: #4b5f5f;
        /* width: 125px;
         height: inherit;
         line-height: 70px;*/
@@ -29,7 +29,7 @@ nav{
         transition: 500ms;
     }
     nav a:hover{
-        border-bottom: #aedaf1 solid 3px;
+        border-bottom: #bceff2 solid 3px;
     }
 
 main{
@@ -46,11 +46,11 @@ main{
         margin: 42px 0px 0px 42px;
         border-radius: 10px;
         /*background-color: #f7bebe;*/
-        box-shadow: 0px 0px 8px rgb(171, 185, 185);
+        box-shadow: 0px 0px 8px #d4e7e9;
         transition: 300ms;
     }
     main article:hover{
-        box-shadow: 0px 0px 12px rgb(130, 150, 149);
+        box-shadow: 0px 0px 12px #bccfd0;
     }
     main article h2{
         font-size: 18px;
