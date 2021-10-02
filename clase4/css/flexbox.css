@@ -31,7 +31,7 @@ hr{
 /*# seteos particulares #*/
 #contenedor{
     /*flex-direction: row; /* predeterminado */
-    /*flex-direction: row-reverse; /* predeterminado */
+    /*flex-direction: row-reverse; /* invierte el orden */
     /* flex-direction: column; */
     flex-direction: column-reverse;
 }
@@ -42,7 +42,7 @@ hr{
 #contenedor3{
     flex-wrap: wrap; /* respeta los anchos */
     /*justify-content: flex-start; /* predeterminado, de lado izquierdo */
-    /*justify-content: flex-end; /* predeterminado, de lado derecho */
+    /*justify-content: flex-end; /* de lado derecho */
     /*justify-content: center;*/
 
     /* maneja las separaciones entre las cajas */

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    color: #4b5f5f;
+    font-size: 16px;
+}
+header{
+    height: 120px;
+    background-color: #F9F9F9;
+}
+nav{
+    height: 70px;
+    display: flex;
+    justify-content: center; /* centrado horizontal */
+    align-content: stretch; /* estira en altura */
+}
+nav a{
+    color: #4b5f5f;
+    text-decoration: none;
+    line-height: 70px;
+    /*width: 120px;*/
+    padding: 0px 30px;
+    margin: 0px 5px;
+    border-bottom: 4px solid #fff;
+    transition: .3ms;
+}
+nav a:hover{
+    border-bottom: 4px solid #9dd9e2;
+}
+
+main {
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap; /* respeta los anchos */
+    justify-content: space-between;
+}
+
+    main article{
+        width: 310px;
+        margin: 15px 0px;
+        padding: 20px;
+        border-radius: 10px; /* ángulos redoncdeadas */
+        box-shadow: 0px 5px 10px #eee;
+        transition: .3s;
+    }
+    main article:hover{
+        box-shadow: 0px 5px 10px #ddd;
+    }
+
+footer{
+    height: 120px;
+    background-color: #F9F9F9;
+    text-align: center;
+    line-height: 120px;
+}
