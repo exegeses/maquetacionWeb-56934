@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Nunito, sans-serif;
+    font-weight: 300;
+    color: #707070;
+}
+header{
+    height: 110px;
+    border-top: 10px solid #E16D65;
+}
+#top{
+    width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+    #top a{
+        text-decoration: none;
+    }
+        #marca{
+            color: #E16D65;
+            font-size: 20px;
+            font-weight: 600;
+            padding: 20px 20px 20px 0px;
+            line-height: 60px;
+        }
+    #top nav{
+        line-height: 100px;
+    }
+    #top nav a{
+        padding: 20px 0px 20px 20px;
+        color: #707070;
+    }
+    #top nav a:hover{
+        color: #E16D65;
+    }
+
+    /* hero image */
+    #hero{
+        height: 350px;
+        background-image: url(../imagenes/pink-desk.webp);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    /* ### MAIN #### */
+    main{
+        width: 900px;
+        margin: auto;
+        min-height: 560px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-top: 30px;
+    }
+
+        h1{
+            font-size: 20px;
+            font-weight: 600;
+            width: 100%;
+        }
+        main article{
+            width: 400px;
+            text-align: justify;
+        }
+        article h2{
+            font-size: 16px;
+            background-image: url(../imagenes/wrench-sunglo.png);
+            background-repeat: no-repeat;
+            background-position: 0 6px;
+            background-size: 20px;
+            padding-left: 30px;
+            margin-bottom: 15px;
+        }
+        
+        
+    footer{
+        height: 110px;
+        text-align: center;
+        border-top: 2px solid #f2938d;
+    }
+    footer a{
+        text-decoration: none;
+        padding: 0px 20px;
+    }
+    footer nav{
+        line-height: 60px;
+    }
+    footer nav a{
+        padding: 20px 0px 20px 20px;
+        color: #707070;
+    }
+    footer nav a:hover{
+        color: #E16D65;
+    }
+
+    footer a img{
+        width: 20px;
+        opacity: .5;
+    }
+    footer a img:hover{
+        opacity: 1;
+    }
