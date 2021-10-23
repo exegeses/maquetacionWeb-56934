@@ -83,7 +83,7 @@ header{
     footer{
         height: 110px;
         text-align: center;
-        border-top: 2px solid #f2938d;
+        border-top: 5px solid #f2938d;
     }
     footer a{
         text-decoration: none;

@@ -1,0 +1,24 @@
+main{
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+}
+/* celu pequeño */
+@media (min-width: 576px) { 
+    main{
+        background-color: #DAF9E6;
+    }
+}
+/* tablets, */
+@media (min-width: 768px) {
+    main{
+        background-color: #97bfa5;
+    }
+}
+
+/* escritorio */
+@media (min-width: 992px) {
+    main{
+        background-color: #4b7259;
+    }
+}

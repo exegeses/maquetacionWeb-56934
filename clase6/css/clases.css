@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Bitter', sans-serif;
+}
+section{
+    width: 900px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    width: 100%;
+}
+.naranja, .verde{
+    width: 370px;
+    padding: 20px;
+    margin: 20px;
+}
+.naranja{
+    background-color: #F9F2DA;
+}
+.verde{
+    background-color: #DAF9E6;
+}
+.fab{
+    padding-right: 16px;
+}
